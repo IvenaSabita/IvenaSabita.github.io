@@ -679,6 +679,19 @@ label.modedarkmobile input[type="checkbox"]:checked ~ .indicator i.fa-sun{
     border-radius: 10px;
     resize: none;
   }
+
+input:invalid
+input:required:invalid{
+    border:none;
+    outline: 2px solid red;
+    border-radius: 2px;
+  }
+input:valid
+input:required{
+    border: 1 px solid blueviolet;
+    outline: inherit
+    border-radius: inherit;
+  }
   
   form button {
     background: white;
