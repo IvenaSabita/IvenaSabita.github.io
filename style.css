@@ -296,7 +296,7 @@ header .info .txt i{
 }
 
 .fact .gambar{
-    background-image: url('asset/fact.jpeg');
+    background-image: url('fact.jpeg');
     background-size: cover;
 }
 
