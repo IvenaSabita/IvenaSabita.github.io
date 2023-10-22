@@ -464,8 +464,8 @@
   <form action="" method="get">
       <h2 data-theme="text-dark" > GET IN TOUCH </h2>
       <input type="text" id="name" placeholder="Enter Your Name" autofocus required minlength="3" >
-      <input type="email" id="email" placeholder="Enter Your Email" required pattern="(\+62|62|0)8[1-9][0-9]{6,9}$>
-      <input type="tel" id="phone" placeholder="Enter Your Phone Number" required >
+      <input type="email" id="email" placeholder="Enter Your Email" required minlength="3">
+      <input type="tel" id="phone" placeholder="Enter Your Phone Number" required pattern="(\+62|62|0)8[1-9][0-9]{6,9}$">
 
       <textarea id="message" rows="3" placeholder="Write Something"  required maxlength="1000"></textarea>
       <button data-theme="text-dark" type="submit">Send</button>
