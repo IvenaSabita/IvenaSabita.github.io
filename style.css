@@ -140,6 +140,7 @@ header .info .txt i{
     grid-area: judul;
     font-weight: bold;
     font-size: 3em;
+    height: max-content;
 }
 
 .deskripsi{
@@ -148,6 +149,9 @@ header .info .txt i{
     opacity: .8;
     height: max-content;
     transform: translateY(-40px);
+    margin-top:1%;
+    margin-left:2px;
+    margin-right:20px;
 }
 
 .explore{
@@ -198,12 +202,13 @@ header .info .txt i{
 }
 
 .gambar .ven2{
-    width: 80px;
-    transform: translate(-65px, 170px);
+    width: 100px;
+    transform: translate(-65px, 20px);
     animation: iconCodingMelayang 5s infinite ease-in-out;
 }
 
 .gambar .ven3{
+    width: 80px;
     transform: translate(-130px, -90px) rotate(-15deg);
     animation: iconVideoMelayang 4s infinite ease-in-out;   
 }
@@ -443,29 +448,6 @@ header .info .txt i{
     transform: translateY(-35px);
     box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.103);
 }
-
-chat{
-    padding: 50px;
-    background: var(--style-background-gradient);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px
-}
-
-chat a{
-    background-color: #3B3339;
-    color: white;
-    padding: 5px 20px;
-    border-radius: 7px;
-    margin-bottom: 30px;
-}
-
-chat span{
-    font-size: .8em;
-}
-
 
 a.slidetoHeader{
     min-width: 30px;
