@@ -281,22 +281,22 @@ header .info .txt i{
 }
 
 .mc .gambar{
-    background-image: url('mic.png');
+    background-image: url('asset/mic.png');
     background-size: cover;
 }
 
 .collage .gambar{
-    background-image: url('ITS.jpeg');
+    background-image: url('asset/ITS.jpeg');
     background-size: cover;
 }
 
 .throwback .gambar{
-    background-image: url('back.png');
+    background-image: url('asset/back.png');
     background-size: cover;
 }
 
 .fact .gambar{
-    background-image: url('fact.jpeg');
+    background-image: url('asset/fact.jpeg');
     background-size: cover;
 }
 
