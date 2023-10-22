@@ -645,7 +645,7 @@ label.modedarkmobile input[type="checkbox"]:checked ~ .indicator i.fa-sun{
     
 }
 .container {
-    background-color: #eecbed;
+    background-color: #FFEADD;
     display: flex;
     justify-content: center;
     align-items: center;
